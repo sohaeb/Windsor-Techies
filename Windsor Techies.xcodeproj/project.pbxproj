@@ -219,6 +219,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C18B159216A5329002994D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C4ACBB5216A4F450091B5A6 /* csv files */,
+				6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */,
+				6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */,
+				6C4ACB68216A4CFE0091B5A6 /* LaunchScreen.storyboard */,
+				6C4ACB6B216A4CFE0091B5A6 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6C4ACB53216A4CFC0091B5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -246,13 +258,9 @@
 		6C4ACB5E216A4CFC0091B5A6 /* Windsor Techies */ = {
 			isa = PBXGroup;
 			children = (
-				6C4ACBB5216A4F450091B5A6 /* csv files */,
+				6C18B159216A5329002994D3 /* Supporting Files */,
 				6C4ACBE4216A4F450091B5A6 /* Storyboards */,
 				6C4ACBC2216A4F450091B5A6 /* Tabs */,
-				6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */,
-				6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */,
-				6C4ACB68216A4CFE0091B5A6 /* LaunchScreen.storyboard */,
-				6C4ACB6B216A4CFE0091B5A6 /* Info.plist */,
 			);
 			path = "Windsor Techies";
 			sourceTree = "<group>";
