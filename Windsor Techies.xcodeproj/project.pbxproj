@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C18B15B216A5496002994D3 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18B15A216A5495002994D3 /* SnapshotHelper.swift */; };
+		6C18B15C216A54AA002994D3 /* 08.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB6216A4F450091B5A6 /* 08.csv */; };
+		6C18B15D216A54AA002994D3 /* 09.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB7216A4F450091B5A6 /* 09.csv */; };
+		6C18B15E216A54AA002994D3 /* 02.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB8216A4F450091B5A6 /* 02.csv */; };
+		6C18B15F216A54AA002994D3 /* 03.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB9216A4F450091B5A6 /* 03.csv */; };
+		6C18B160216A54AA002994D3 /* 01.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBA216A4F450091B5A6 /* 01.csv */; };
+		6C18B161216A54AA002994D3 /* 04.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBB216A4F450091B5A6 /* 04.csv */; };
+		6C18B162216A54AA002994D3 /* 10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBC216A4F450091B5A6 /* 10.csv */; };
+		6C18B163216A54AA002994D3 /* 11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBD216A4F450091B5A6 /* 11.csv */; };
+		6C18B164216A54AA002994D3 /* 05.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBE216A4F450091B5A6 /* 05.csv */; };
+		6C18B165216A54AA002994D3 /* 07.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBF216A4F450091B5A6 /* 07.csv */; };
+		6C18B166216A54AA002994D3 /* 06.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC0216A4F450091B5A6 /* 06.csv */; };
+		6C18B167216A54AA002994D3 /* 12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC1216A4F450091B5A6 /* 12.csv */; };
+		6C18B168216A54AA002994D3 /* 08.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB6216A4F450091B5A6 /* 08.csv */; };
+		6C18B169216A54AA002994D3 /* 09.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB7216A4F450091B5A6 /* 09.csv */; };
+		6C18B16A216A54AA002994D3 /* 02.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB8216A4F450091B5A6 /* 02.csv */; };
+		6C18B16B216A54AA002994D3 /* 03.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB9216A4F450091B5A6 /* 03.csv */; };
+		6C18B16C216A54AA002994D3 /* 01.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBA216A4F450091B5A6 /* 01.csv */; };
+		6C18B16D216A54AA002994D3 /* 04.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBB216A4F450091B5A6 /* 04.csv */; };
+		6C18B16E216A54AA002994D3 /* 10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBC216A4F450091B5A6 /* 10.csv */; };
+		6C18B16F216A54AA002994D3 /* 11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBD216A4F450091B5A6 /* 11.csv */; };
+		6C18B170216A54AA002994D3 /* 05.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBE216A4F450091B5A6 /* 05.csv */; };
+		6C18B171216A54AA002994D3 /* 07.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBBF216A4F450091B5A6 /* 07.csv */; };
+		6C18B172216A54AA002994D3 /* 06.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC0216A4F450091B5A6 /* 06.csv */; };
+		6C18B173216A54AA002994D3 /* 12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC1216A4F450091B5A6 /* 12.csv */; };
+		6C18B174216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
+		6C18B175216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */; };
 		6C4ACB67216A4CFE0091B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C4ACB6A216A4CFE0091B5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB68216A4CFE0091B5A6 /* LaunchScreen.storyboard */; };
@@ -121,6 +148,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C18B15A216A5495002994D3 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		6C4ACB5C216A4CFC0091B5A6 /* Windsor Techies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windsor Techies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -277,6 +305,7 @@
 		6C4ACB7E216A4CFF0091B5A6 /* Windsor TechiesUITests */ = {
 			isa = PBXGroup;
 			children = (
+				6C18B15A216A5495002994D3 /* SnapshotHelper.swift */,
 				6C4ACB7F216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift */,
 				6C4ACB81216A4CFF0091B5A6 /* Info.plist */,
 			);
@@ -630,8 +659,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C18B166216A54AA002994D3 /* 06.csv in Resources */,
+				6C18B163216A54AA002994D3 /* 11.csv in Resources */,
+				6C18B15E216A54AA002994D3 /* 02.csv in Resources */,
+				6C18B15F216A54AA002994D3 /* 03.csv in Resources */,
+				6C18B174216A54AF002994D3 /* Assets.xcassets in Resources */,
+				6C18B165216A54AA002994D3 /* 07.csv in Resources */,
+				6C18B162216A54AA002994D3 /* 10.csv in Resources */,
 				6C4ACB95216A4E3A0091B5A6 /* Assets.xcassets in Resources */,
+				6C18B160216A54AA002994D3 /* 01.csv in Resources */,
+				6C18B161216A54AA002994D3 /* 04.csv in Resources */,
+				6C18B15D216A54AA002994D3 /* 09.csv in Resources */,
+				6C18B164216A54AA002994D3 /* 05.csv in Resources */,
 				6C4ACB93216A4E390091B5A6 /* Interface.storyboard in Resources */,
+				6C18B15C216A54AA002994D3 /* 08.csv in Resources */,
+				6C18B167216A54AA002994D3 /* 12.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +681,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C18B173216A54AA002994D3 /* 12.csv in Resources */,
+				6C18B16B216A54AA002994D3 /* 03.csv in Resources */,
+				6C18B16F216A54AA002994D3 /* 11.csv in Resources */,
+				6C18B171216A54AA002994D3 /* 07.csv in Resources */,
+				6C18B175216A54AF002994D3 /* Assets.xcassets in Resources */,
+				6C18B16E216A54AA002994D3 /* 10.csv in Resources */,
+				6C18B16D216A54AA002994D3 /* 04.csv in Resources */,
+				6C18B168216A54AA002994D3 /* 08.csv in Resources */,
+				6C18B170216A54AA002994D3 /* 05.csv in Resources */,
+				6C18B169216A54AA002994D3 /* 09.csv in Resources */,
+				6C18B16C216A54AA002994D3 /* 01.csv in Resources */,
+				6C18B16A216A54AA002994D3 /* 02.csv in Resources */,
+				6C18B172216A54AA002994D3 /* 06.csv in Resources */,
 				6C4ACBA7216A4E3B0091B5A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,6 +746,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4ACB80216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift in Sources */,
+				6C18B15B216A5496002994D3 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

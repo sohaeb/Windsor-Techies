@@ -1,0 +1,231 @@
+
+fastlane_version "2.35.0"
+
+default_platform :ios
+
+
+
+ 
+ ################ ################ ################
+
+	# 1 -  : provision (produce + cert + sigh)
+
+ ################ ################ ################
+
+
+
+ # --- Cr8 A-code sing certificate + B- provisioning profile + C- itunes app ----
+
+  desc "Creating a code signing certificate and provisioning profile"
+  lane :provision do
+    produce(
+      app_name: 'windsorislamiccouncil',
+      language: 'English',
+      app_version: '1.0',
+      sku: '123abc'
+    )                 ###### Create new iOS apps on iTunes Connect and Dev Portal using your command line
+    cert              ###### Automatically create and maintain iOS code signing certificates.
+    sigh(force: true) ###### create, renew, download and repair provisioning profiles
+  end
+
+
+
+
+
+
+
+
+ ################ ################ ################
+
+	# 2 -  : screenshot (frameit + snapshot)
+
+ ################ ################ ################
+
+
+
+  desc "Take screenshots"
+  lane :screenshot do
+    snapshot
+    frameit(white: true)
+
+    # snapshot(
+    # workspace: 'wic.xcworkspace',
+    #  scheme: 'windsorislamiccouncilUITests',
+    #  devices: ['iPhone 6s'],
+    #  output_simulator_logs: false
+    #)
+    
+  end
+
+
+
+
+
+
+ ################ ################ ################
+
+	# 3 -  : test
+
+ ################ ################ ################
+
+
+
+
+
+ desc "Runs all the tests"
+  lane :test do
+	 scan(scheme: 'UWindsor MSA')
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+ ################ ################ ################
+
+
+		# PATCHES #
+
+# if you want to use patches, you have to manually add a zero in Xcode (3.2.0)
+
+ ################ ################ ################
+
+
+
+
+
+    ################ ################
+
+	# 1 -  : build_patch
+
+    ################ ################
+
+
+
+
+
+# This will change the 3rd number: 3.2.x.0
+
+  lane :patch do
+	increment_version_number # Automatically increment patch version number
+end
+
+ 
+# This is another way to change the 3rd number
+
+#  lane : build_patch do
+#increment_version_number(
+#  bump_type: "patch" # Automatically increment patch version number
+#)
+#end
+
+
+
+
+
+     ################ ################
+
+	# 2 -  : build_minor
+
+    ################ ################
+
+
+
+#
+# # This will change the 2nd number: 3.x.1.0
+#
+
+  lane :patch_minor do
+increment_version_number(
+  bump_type: "minor" # Automatically increment minor version number
+)
+end
+
+
+
+
+
+    ################ ################
+
+	# 3 -  : build_major 
+
+    ################ ################
+
+
+
+
+
+# This will change the 1st number: x.2.1.0
+
+  lane :patch_major do
+increment_version_number(
+  bump_type: "major" # Automatically increment major version number
+)
+end
+
+
+
+
+
+
+
+    ################ ################
+
+	# 4 -  : build --->  3.2.1.x
+
+		#This will increment the build number
+
+    ################ ################
+
+
+
+ desc "Create ipa"
+  lane :build do
+    increment_build_number
+
+  end
+
+
+
+
+
+
+
+
+ ################ ################ ################
+
+		# -  : RELEASE (deliver)
+
+ ################ ################ ################
+
+
+
+  lane :release do
+    # provision # you need to do this once only
+    # screenshot
+     build           # this will put increase the build number (not major/minor --- see below for more info) 
+     #build_patch     
+     gym(scheme: 'UWindsor MSA') # archive and export isa
+
+
+	# Note: Deliver will auto detect the ipa, no need to include it as a path
+	# however, if you still want to include it:
+	# $fastlane deliver --ipa "/Users/may/Desktop/UWindsor A new/UWindsor MSA/UWindsor MSA.ipa" --submit_for_review
+
+    deliver(
+  	submit_for_review: true,
+	automatic_release: true,
+	  force: true, # This will not generate html preview
+	  metadata_path: "./metadata" 
+	)
+  end
+
+
+

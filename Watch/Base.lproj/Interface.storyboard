@@ -1,16 +1,127 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller hidesWhenLoading="NO" alwaysBounce="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch" customModuleProvider="target">
+                    <items>
+                        <group width="156" height="24" alignment="left" contentMode="scaleAspectFit" id="4Xt-a7-5JE">
+                            <items>
+                                <imageView height="27" alignment="left" image="generic" contentMode="scaleAspectFit" id="ggI-lj-E1D"/>
+                            </items>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <variation key="device=watch38mm" height="22"/>
+                        </group>
+                        <group width="1" height="123" alignment="left" layout="vertical" id="PZ9-6z-URk">
+                            <items>
+                                <group width="1" height="22" alignment="center" layout="vertical" id="lSq-6w-ckQ">
+                                    <items>
+                                        <label width="84" alignment="left" text="Working Hours" textAlignment="left" id="zhJ-Me-hhW">
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <separator alignment="center" verticalAlignment="center" id="pQ0-st-jfj">
+                                            <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </separator>
+                                    </items>
+                                    <variation key="device=watch38mm" height="12"/>
+                                </group>
+                                <group width="163" height="108" alignment="right" verticalAlignment="bottom" id="R1U-E6-gaU">
+                                    <items>
+                                        <group width="18" height="100" alignment="left" layout="vertical" id="yeX-fC-ZDE">
+                                            <items>
+                                                <group width="19" height="18" alignment="left" backgroundImage="fajir" contentMode="scaleAspectFit" id="xVI-Ci-8dB"/>
+                                                <group width="20" height="20" alignment="left" backgroundImage="Duhur" contentMode="scaleAspectFit" id="Uvx-MC-QrA"/>
+                                                <group width="18" height="18" alignment="left" backgroundImage="Asr" contentMode="scaleAspectFit" id="Vdi-9u-zcV"/>
+                                                <group width="20" height="20" alignment="left" backgroundImage="Maghrib" contentMode="scaleAspectFit" id="aYe-LM-tnY"/>
+                                                <group width="17" height="17" alignment="left" backgroundImage="Isha" contentMode="scaleAspectFit" id="JBM-xh-Aoo"/>
+                                            </items>
+                                            <variation key="device=watch38mm" height="116"/>
+                                            <variation key="device=watch42mm" height="111"/>
+                                        </group>
+                                        <group width="115" alignment="right" layout="vertical" id="QOe-Vl-T9M">
+                                            <items>
+                                                <group width="134" height="19" alignment="left" spacing="0.0" id="jyi-IA-Ein">
+                                                    <items>
+                                                        <label alignment="left" text="Tim" id="F9d-2I-ZUB">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                        <label alignment="right" text="Label" id="P8h-hQ-Oam">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                                <group width="1" height="19" alignment="left" id="FC9-wP-JoM">
+                                                    <items>
+                                                        <label alignment="left" text="Marting" id="1XC-dd-A9c">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                        <label alignment="right" text="Label" id="Cph-BO-HY4">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                                <group width="1" height="19" alignment="left" id="ElX-L2-Yzs">
+                                                    <items>
+                                                        <label alignment="left" text="Scott" id="nBg-1u-5tI">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                        <label alignment="right" text="Label" id="F1d-zV-pU0">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                                <group width="1" height="19" alignment="left" id="7au-a5-OGe">
+                                                    <items>
+                                                        <label alignment="left" text="Cool" id="kvQ-wV-xp6">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                        <label alignment="right" text="Label" id="aqp-mR-QO6">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                                <group width="1" height="20" alignment="center" id="ma6-zs-Pk5">
+                                                    <items>
+                                                        <label alignment="left" text="Nice" id="z0J-Si-L72">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                        <label alignment="right" text="Label" id="bWM-LO-2mp">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                            </items>
+                                            <variation key="device=watch42mm" width="133"/>
+                                        </group>
+                                    </items>
+                                    <variation key="device=watch38mm" height="110"/>
+                                    <variation key="device=watch42mm" height="112"/>
+                                </group>
+                            </items>
+                            <variation key="device=watch42mm" height="139"/>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="asr" destination="F1d-zV-pU0" id="R5g-0P-A39"/>
+                        <outlet property="duhur" destination="Cph-BO-HY4" id="BYT-29-Ocv"/>
+                        <outlet property="fajir" destination="P8h-hQ-Oam" id="gVz-Y0-4dt"/>
+                        <outlet property="isha" destination="bWM-LO-2mp" id="dbp-Fp-AlV"/>
+                        <outlet property="maghrib" destination="aqp-mR-QO6" id="wVr-dw-l1S"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="273"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,9 +142,9 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Watch" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="594" y="631"/>
         </scene>
     </scenes>
 </document>
