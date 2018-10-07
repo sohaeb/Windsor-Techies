@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Windsor_Techies
 
 class Windsor_TechiesTests: XCTestCase {
     

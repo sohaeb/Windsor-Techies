@@ -34,6 +34,8 @@
 		6C18B173216A54AA002994D3 /* 12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC1216A4F450091B5A6 /* 12.csv */; };
 		6C18B174216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C18B175216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
+		6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB74216A4CFF0091B5A6 /* Windsor_TechiesTests.swift */; };
+		6C18B177216A5789002994D3 /* FetchingTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC9216A4F450091B5A6 /* FetchingTimes.swift */; };
 		6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */; };
 		6C4ACB67216A4CFE0091B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C4ACB6A216A4CFE0091B5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB68216A4CFE0091B5A6 /* LaunchScreen.storyboard */; };
@@ -719,6 +721,7 @@
 				6C4ACC04216A4F460091B5A6 /* PlayingWithDateAndTime.swift in Sources */,
 				6C4ACBFD216A4F460091B5A6 /* EventNavController.swift in Sources */,
 				6C4ACC0B216A4F460091B5A6 /* Items.swift in Sources */,
+				6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */,
 				6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */,
 				6C4ACBFF216A4F460091B5A6 /* EventDetailsViewController_fb.swift in Sources */,
 				6C4ACC06216A4F460091B5A6 /* AboutViewController.swift in Sources */,
@@ -754,6 +757,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C18B177216A5789002994D3 /* FetchingTimes.swift in Sources */,
 				6C4ACBA5216A4E3A0091B5A6 /* NotificationController.swift in Sources */,
 				6C4ACBA3216A4E3A0091B5A6 /* ExtensionDelegate.swift in Sources */,
 				6C4ACBA1216A4E3A0091B5A6 /* InterfaceController.swift in Sources */,
