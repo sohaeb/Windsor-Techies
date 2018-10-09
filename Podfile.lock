@@ -72,12 +72,16 @@ PODS:
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
   - Protobuf (3.6.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.0):
+    - TwitterCore (>= 3.1.0)
 
 DEPENDENCIES:
   - FBSDKCoreKit
   - Firebase/Core
   - Firebase/Database
   - Firebase/Messaging
+  - TwitterKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -94,6 +98,8 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - Protobuf
+    - TwitterCore
+    - TwitterKit
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -109,7 +115,9 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: bc7bd086b9b724a1d888745a054e1d0b1ecc4f3f
 
-PODFILE CHECKSUM: 6e2468ef7779a68bbc3dff8ea1342fbb13f36143
+PODFILE CHECKSUM: f6a0f62b93ef01f7ae72f30e3127873cfe88c9cb
 
 COCOAPODS: 1.5.3

@@ -11,6 +11,7 @@ target 'Windsor Techies' do
 	pod 'Firebase/Messaging'
 	pod 'Firebase/Core'
 	pod 'Firebase/Database'
+pod 'TwitterKit'
 
 	end
   
