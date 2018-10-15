@@ -4,4 +4,5 @@ If you need this porject to work, you need to:
 
 1- pod install
 2- Link SwifterIOS under "Linked Libraries" box
-3- 
+3- Add Notificationa and Googleservices for Firebase
+4- Add Fabric Scripts
