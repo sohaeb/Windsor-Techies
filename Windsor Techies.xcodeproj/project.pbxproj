@@ -92,7 +92,7 @@
 		6C4ACC12216A4F460091B5A6 /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE8216A4F450091B5A6 /* Twitter.storyboard */; };
 		6C4ACC13216A4F460091B5A6 /* Website.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE9216A4F450091B5A6 /* Website.storyboard */; };
 		6C4ACC14216A4F460091B5A6 /* Home Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBEA216A4F450091B5A6 /* Home Page.storyboard */; };
-		794595ACE8E3384A4507FCE3 /* Pods_Windsor_Techies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E92DC8297862714AE0076C3 /* Pods_Windsor_Techies.framework */; };
+		906F1B9138FE30DCE9077208 /* Pods_Windsor_Techies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731E42259D9D015C3B56BA5D /* Pods_Windsor_Techies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,8 +152,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E92DC8297862714AE0076C3 /* Pods_Windsor_Techies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windsor_Techies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E43AC8994E9B0CA79EBF0A0 /* Pods-Windsor Techies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.release.xcconfig"; sourceTree = "<group>"; };
+		07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.release.xcconfig"; sourceTree = "<group>"; };
 		6C16CFDE216C49DD00B2A7D7 /* SwifteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwifteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C18B15A216A5495002994D3 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		6C4ACB5C216A4CFC0091B5A6 /* Windsor Techies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windsor Techies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +219,8 @@
 		6C4ACBE8216A4F450091B5A6 /* Twitter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Twitter.storyboard; sourceTree = "<group>"; };
 		6C4ACBE9216A4F450091B5A6 /* Website.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Website.storyboard; sourceTree = "<group>"; };
 		6C4ACBEA216A4F450091B5A6 /* Home Page.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home Page.storyboard"; sourceTree = "<group>"; };
-		FDE5B8E6A4ECCB006C5128AA /* Pods-Windsor Techies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.debug.xcconfig"; sourceTree = "<group>"; };
+		731E42259D9D015C3B56BA5D /* Pods_Windsor_Techies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windsor_Techies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C16CFDF216C49DD00B2A7D7 /* SwifteriOS.framework in Frameworks */,
-				794595ACE8E3384A4507FCE3 /* Pods_Windsor_Techies.framework in Frameworks */,
+				906F1B9138FE30DCE9077208 /* Pods_Windsor_Techies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				6C16CFDE216C49DD00B2A7D7 /* SwifteriOS.framework */,
-				0E92DC8297862714AE0076C3 /* Pods_Windsor_Techies.framework */,
+				731E42259D9D015C3B56BA5D /* Pods_Windsor_Techies.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 				6C4ACB9F216A4E3A0091B5A6 /* Watch Extension */,
 				6C4ACB5D216A4CFC0091B5A6 /* Products */,
 				6C16CFDD216C49DD00B2A7D7 /* Frameworks */,
-				B8292B98FD04493D9FAFEEDE /* Pods */,
+				8072EF0D751646464F53050C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -498,11 +498,11 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		B8292B98FD04493D9FAFEEDE /* Pods */ = {
+		8072EF0D751646464F53050C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDE5B8E6A4ECCB006C5128AA /* Pods-Windsor Techies.debug.xcconfig */,
-				2E43AC8994E9B0CA79EBF0A0 /* Pods-Windsor Techies.release.xcconfig */,
+				DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */,
+				07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -514,13 +514,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4ACB84216A4CFF0091B5A6 /* Build configuration list for PBXNativeTarget "Windsor Techies" */;
 			buildPhases = (
-				67DEE5821EBC26073443403F /* [CP] Check Pods Manifest.lock */,
+				20173F8131E1EC5E855B599E /* [CP] Check Pods Manifest.lock */,
 				6C4ACB58216A4CFC0091B5A6 /* Sources */,
 				6C4ACB59216A4CFC0091B5A6 /* Frameworks */,
 				6C4ACB5A216A4CFC0091B5A6 /* Resources */,
 				6C4ACBB4216A4E3B0091B5A6 /* Embed Watch Content */,
-				C07B2D1FFD4BBDF7311361D5 /* [CP] Embed Pods Frameworks */,
-				CF1C735E1953E84436750447 /* [CP] Copy Pods Resources */,
+				5C8EAFABCEA8FFCB7EB02042 /* [CP] Embed Pods Frameworks */,
+				284DAD4BC64D46CE44A62BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -742,7 +742,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67DEE5821EBC26073443403F /* [CP] Check Pods Manifest.lock */ = {
+		20173F8131E1EC5E855B599E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -764,7 +764,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C07B2D1FFD4BBDF7311361D5 /* [CP] Embed Pods Frameworks */ = {
+		284DAD4BC64D46CE44A62BF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8EAFABCEA8FFCB7EB02042 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -798,28 +820,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF1C735E1953E84436750447 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1047,7 +1047,7 @@
 		};
 		6C4ACB85216A4CFF0091B5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE5B8E6A4ECCB006C5128AA /* Pods-Windsor Techies.debug.xcconfig */;
+			baseConfigurationReference = DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1067,7 +1067,7 @@
 		};
 		6C4ACB86216A4CFF0091B5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E43AC8994E9B0CA79EBF0A0 /* Pods-Windsor Techies.release.xcconfig */;
+			baseConfigurationReference = 07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
