@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6C16CFDF216C49DD00B2A7D7 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C16CFDE216C49DD00B2A7D7 /* SwifteriOS.framework */; };
-		6C18B15B216A5496002994D3 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18B15A216A5495002994D3 /* SnapshotHelper.swift */; };
 		6C18B15C216A54AA002994D3 /* 08.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB6216A4F450091B5A6 /* 08.csv */; };
 		6C18B15D216A54AA002994D3 /* 09.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB7216A4F450091B5A6 /* 09.csv */; };
 		6C18B15E216A54AA002994D3 /* 02.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBB8216A4F450091B5A6 /* 02.csv */; };
@@ -35,13 +34,13 @@
 		6C18B173216A54AA002994D3 /* 12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC1216A4F450091B5A6 /* 12.csv */; };
 		6C18B174216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C18B175216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
-		6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB74216A4CFF0091B5A6 /* Windsor_TechiesTests.swift */; };
 		6C18B177216A5789002994D3 /* FetchingTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC9216A4F450091B5A6 /* FetchingTimes.swift */; };
+		6C4A7A57217A823D00F470D4 /* Windsor_TechiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB7F216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift */; };
+		6C4A7A58217A824500F470D4 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18B15A216A5495002994D3 /* SnapshotHelper.swift */; };
 		6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */; };
 		6C4ACB67216A4CFE0091B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C4ACB6A216A4CFE0091B5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB68216A4CFE0091B5A6 /* LaunchScreen.storyboard */; };
 		6C4ACB75216A4CFF0091B5A6 /* Windsor_TechiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB74216A4CFF0091B5A6 /* Windsor_TechiesTests.swift */; };
-		6C4ACB80216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB7F216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift */; };
 		6C4ACB93216A4E390091B5A6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB91216A4E390091B5A6 /* Interface.storyboard */; };
 		6C4ACB95216A4E3A0091B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB94216A4E3A0091B5A6 /* Assets.xcassets */; };
 		6C4ACB9C216A4E3A0091B5A6 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C4ACB9B216A4E3A0091B5A6 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -92,8 +91,7 @@
 		6C4ACC12216A4F460091B5A6 /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE8216A4F450091B5A6 /* Twitter.storyboard */; };
 		6C4ACC13216A4F460091B5A6 /* Website.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE9216A4F450091B5A6 /* Website.storyboard */; };
 		6C4ACC14216A4F460091B5A6 /* Home Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBEA216A4F450091B5A6 /* Home Page.storyboard */; };
-		6C59F7BB217A7CBB000E482E /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18B15A216A5495002994D3 /* SnapshotHelper.swift */; };
-		6C59F7BC217A7CBF000E482E /* Windsor_TechiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB7F216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift */; };
+		E93A02430C60B76E22B664E5 /* Pods_Windsor_Techies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A794D1B6FF60A1D8B3E409 /* Pods_Windsor_Techies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,7 +151,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.release.xcconfig"; sourceTree = "<group>"; };
 		6C16CFDE216C49DD00B2A7D7 /* SwifteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwifteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C18B15A216A5495002994D3 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		6C4ACB5C216A4CFC0091B5A6 /* Windsor Techies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windsor Techies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,8 +217,9 @@
 		6C4ACBE8216A4F450091B5A6 /* Twitter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Twitter.storyboard; sourceTree = "<group>"; };
 		6C4ACBE9216A4F450091B5A6 /* Website.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Website.storyboard; sourceTree = "<group>"; };
 		6C4ACBEA216A4F450091B5A6 /* Home Page.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home Page.storyboard"; sourceTree = "<group>"; };
-		731E42259D9D015C3B56BA5D /* Pods_Windsor_Techies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windsor_Techies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.debug.xcconfig"; sourceTree = "<group>"; };
+		70C3A7E880FE6711FD1A4F89 /* Pods-Windsor Techies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.release.xcconfig"; sourceTree = "<group>"; };
+		DCF06A8523FE790BDDD79D4D /* Pods-Windsor Techies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windsor Techies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A794D1B6FF60A1D8B3E409 /* Pods_Windsor_Techies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windsor_Techies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C16CFDF216C49DD00B2A7D7 /* SwifteriOS.framework in Frameworks */,
-				906F1B9138FE30DCE9077208 /* Pods_Windsor_Techies.framework in Frameworks */,
+				E93A02430C60B76E22B664E5 /* Pods_Windsor_Techies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				6C16CFDE216C49DD00B2A7D7 /* SwifteriOS.framework */,
-				731E42259D9D015C3B56BA5D /* Pods_Windsor_Techies.framework */,
+				E8A794D1B6FF60A1D8B3E409 /* Pods_Windsor_Techies.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -296,7 +294,7 @@
 				6C4ACB9F216A4E3A0091B5A6 /* Watch Extension */,
 				6C4ACB5D216A4CFC0091B5A6 /* Products */,
 				6C16CFDD216C49DD00B2A7D7 /* Frameworks */,
-				8072EF0D751646464F53050C /* Pods */,
+				FB67DAB17965A9E41425D032 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -499,11 +497,11 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		8072EF0D751646464F53050C /* Pods */ = {
+		FB67DAB17965A9E41425D032 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */,
-				07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */,
+				DCF06A8523FE790BDDD79D4D /* Pods-Windsor Techies.debug.xcconfig */,
+				70C3A7E880FE6711FD1A4F89 /* Pods-Windsor Techies.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -515,13 +513,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4ACB84216A4CFF0091B5A6 /* Build configuration list for PBXNativeTarget "Windsor Techies" */;
 			buildPhases = (
-				20173F8131E1EC5E855B599E /* [CP] Check Pods Manifest.lock */,
+				0EC583D125A23EBBFE5CA7F4 /* [CP] Check Pods Manifest.lock */,
 				6C4ACB58216A4CFC0091B5A6 /* Sources */,
 				6C4ACB59216A4CFC0091B5A6 /* Frameworks */,
 				6C4ACB5A216A4CFC0091B5A6 /* Resources */,
 				6C4ACBB4216A4E3B0091B5A6 /* Embed Watch Content */,
-				5C8EAFABCEA8FFCB7EB02042 /* [CP] Embed Pods Frameworks */,
-				284DAD4BC64D46CE44A62BF8 /* [CP] Copy Pods Resources */,
+				D1FB64964BC012C46062D18E /* [CP] Embed Pods Frameworks */,
+				43F544FA352703E11FB37DB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -743,20 +741,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20173F8131E1EC5E855B599E /* [CP] Check Pods Manifest.lock */ = {
+		0EC583D125A23EBBFE5CA7F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Windsor Techies-checkManifestLockResult.txt",
 			);
@@ -765,20 +759,16 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		284DAD4BC64D46CE44A62BF8 /* [CP] Copy Pods Resources */ = {
+		43F544FA352703E11FB37DB1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
 			);
@@ -787,12 +777,10 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C8EAFABCEA8FFCB7EB02042 /* [CP] Embed Pods Frameworks */ = {
+		D1FB64964BC012C46062D18E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Windsor Techies/Pods-Windsor Techies-frameworks.sh",
@@ -806,8 +794,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
@@ -836,7 +822,6 @@
 				6C4ACC03216A4F460091B5A6 /* Cell.swift in Sources */,
 				6C4ACC0A216A4F460091B5A6 /* WebSiteViewController.swift in Sources */,
 				6C4ACC05216A4F460091B5A6 /* FeedbackWebPageViewController.swift in Sources */,
-				6C59F7BC217A7CBF000E482E /* Windsor_TechiesUITests.swift in Sources */,
 				6C4ACC01216A4F460091B5A6 /* EventDetailsViewController.swift in Sources */,
 				6C4ACC08216A4F460091B5A6 /* TwitterTableViewController.swift in Sources */,
 				6C4ACBF8216A4F460091B5A6 /* AnnouncementViewController.swift in Sources */,
@@ -845,8 +830,6 @@
 				6C4ACC04216A4F460091B5A6 /* PlayingWithDateAndTime.swift in Sources */,
 				6C4ACBFD216A4F460091B5A6 /* EventNavController.swift in Sources */,
 				6C4ACC0B216A4F460091B5A6 /* Items.swift in Sources */,
-				6C59F7BB217A7CBB000E482E /* SnapshotHelper.swift in Sources */,
-				6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */,
 				6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */,
 				6C4ACBFF216A4F460091B5A6 /* EventDetailsViewController_fb.swift in Sources */,
 				6C4ACC06216A4F460091B5A6 /* AboutViewController.swift in Sources */,
@@ -873,8 +856,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4ACB80216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift in Sources */,
-				6C18B15B216A5496002994D3 /* SnapshotHelper.swift in Sources */,
+				6C4A7A58217A824500F470D4 /* SnapshotHelper.swift in Sources */,
+				6C4A7A57217A823D00F470D4 /* Windsor_TechiesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,7 +1033,7 @@
 		};
 		6C4ACB85216A4CFF0091B5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCEC35023E1914A9C231B732 /* Pods-Windsor Techies.debug.xcconfig */;
+			baseConfigurationReference = DCF06A8523FE790BDDD79D4D /* Pods-Windsor Techies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1070,7 +1053,7 @@
 		};
 		6C4ACB86216A4CFF0091B5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07312BF44A51603CF521FFCE /* Pods-Windsor Techies.release.xcconfig */;
+			baseConfigurationReference = 70C3A7E880FE6711FD1A4F89 /* Pods-Windsor Techies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
