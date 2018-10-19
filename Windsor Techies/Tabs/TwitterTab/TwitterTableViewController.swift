@@ -8,7 +8,7 @@
 
 import UIKit
 import TwitterKit
-import Crashlytics
+//import Crashlytics
 
 class TwitterTableViewController: TWTRTimelineViewController {
     

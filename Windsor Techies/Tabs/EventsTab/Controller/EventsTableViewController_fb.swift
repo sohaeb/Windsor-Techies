@@ -8,7 +8,7 @@
 
 import UIKit
 import FBSDKCoreKit
-import Crashlytics
+//import Crashlytics
 
 
 
