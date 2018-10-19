@@ -34,7 +34,6 @@
 		6C18B173216A54AA002994D3 /* 12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC1216A4F450091B5A6 /* 12.csv */; };
 		6C18B174216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
 		6C18B175216A54AF002994D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
-		6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB74216A4CFF0091B5A6 /* Windsor_TechiesTests.swift */; };
 		6C18B177216A5789002994D3 /* FetchingTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACBC9216A4F450091B5A6 /* FetchingTimes.swift */; };
 		6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB5F216A4CFC0091B5A6 /* AppDelegate.swift */; };
 		6C4ACB67216A4CFE0091B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACB66216A4CFE0091B5A6 /* Assets.xcassets */; };
@@ -91,8 +90,6 @@
 		6C4ACC12216A4F460091B5A6 /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE8216A4F450091B5A6 /* Twitter.storyboard */; };
 		6C4ACC13216A4F460091B5A6 /* Website.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBE9216A4F450091B5A6 /* Website.storyboard */; };
 		6C4ACC14216A4F460091B5A6 /* Home Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4ACBEA216A4F450091B5A6 /* Home Page.storyboard */; };
-		6C59F7BB217A7CBB000E482E /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18B15A216A5495002994D3 /* SnapshotHelper.swift */; };
-		6C59F7BC217A7CBF000E482E /* Windsor_TechiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ACB7F216A4CFF0091B5A6 /* Windsor_TechiesUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -715,7 +712,6 @@
 				6C4ACC03216A4F460091B5A6 /* Cell.swift in Sources */,
 				6C4ACC0A216A4F460091B5A6 /* WebSiteViewController.swift in Sources */,
 				6C4ACC05216A4F460091B5A6 /* FeedbackWebPageViewController.swift in Sources */,
-				6C59F7BC217A7CBF000E482E /* Windsor_TechiesUITests.swift in Sources */,
 				6C4ACC01216A4F460091B5A6 /* EventDetailsViewController.swift in Sources */,
 				6C4ACC08216A4F460091B5A6 /* TwitterTableViewController.swift in Sources */,
 				6C4ACBF8216A4F460091B5A6 /* AnnouncementViewController.swift in Sources */,
@@ -724,8 +720,6 @@
 				6C4ACC04216A4F460091B5A6 /* PlayingWithDateAndTime.swift in Sources */,
 				6C4ACBFD216A4F460091B5A6 /* EventNavController.swift in Sources */,
 				6C4ACC0B216A4F460091B5A6 /* Items.swift in Sources */,
-				6C59F7BB217A7CBB000E482E /* SnapshotHelper.swift in Sources */,
-				6C18B176216A56B0002994D3 /* Windsor_TechiesTests.swift in Sources */,
 				6C4ACB60216A4CFC0091B5A6 /* AppDelegate.swift in Sources */,
 				6C4ACBFF216A4F460091B5A6 /* EventDetailsViewController_fb.swift in Sources */,
 				6C4ACC06216A4F460091B5A6 /* AboutViewController.swift in Sources */,
