@@ -10,7 +10,6 @@ import UIKit
 import Firebase
 import TwitterKit
 import UserNotifications
-import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Twitter.sharedInstance().start(withConsumerKey: "048qD4ytmd2qt9X5GHOHm2lb0", consumerSecret: "9OmfnvnThkcRzr1Si4O4e0sEOQpUVsu705vpdWjL7MimC4FB2J")
+        TWTRTwitter.sharedInstance().start(withConsumerKey: "048qD4ytmd2qt9X5GHOHm2lb0", consumerSecret: "9OmfnvnThkcRzr1Si4O4e0sEOQpUVsu705vpdWjL7MimC4FB2J")
         
         FirebaseApp.configure()
         Database.database().isPersistenceEnabled = true
