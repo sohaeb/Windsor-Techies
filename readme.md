@@ -8,4 +8,4 @@ If you need this porject to work, you need to:
 
 3- Add Notificationa and Googleservices for Firebase
 
-4- Add Fabric Scripts
+4- Add Fabric Scripts & install Crashlytics pod
