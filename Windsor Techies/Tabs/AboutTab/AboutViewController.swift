@@ -18,9 +18,9 @@ class AboutViewController: UIViewController {
                 
                 let url = URL(string: "https://facebook.com/QuickenLoans")!
                 
-                UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : true], completionHandler: { (success) in
+                UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([convertFromUIApplicationOpenExternalURLOptionsKey(UIApplication.OpenExternalURLOptionsKey.universalLinksOnly) : true]), completionHandler: { (success) in
                     if !success {
-                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
                     }
                     print("fb")
                 })
@@ -28,9 +28,9 @@ class AboutViewController: UIViewController {
             case "2":
                 let url = URL(string: "https://twitter.com/QuickenLoans")!
                 
-                UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : true], completionHandler: { (success) in
+                UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([convertFromUIApplicationOpenExternalURLOptionsKey(UIApplication.OpenExternalURLOptionsKey.universalLinksOnly) : true]), completionHandler: { (success) in
                     if !success {
-                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
                     }
                     print("twitter")
                 })
@@ -38,9 +38,9 @@ class AboutViewController: UIViewController {
             case "3":
                 let url = URL(string: "https://youtube.com/")!
                 
-                UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : true], completionHandler: { (success) in
+                UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([convertFromUIApplicationOpenExternalURLOptionsKey(UIApplication.OpenExternalURLOptionsKey.universalLinksOnly) : true]), completionHandler: { (success) in
                     if !success {
-                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
                     }
                     print("youtube")
                 })
@@ -49,9 +49,9 @@ class AboutViewController: UIViewController {
             
             let url = URL(string: "snapchat://add/uwindsormsa")!
             
-            UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : true], completionHandler: { (success) in
+            UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([convertFromUIApplicationOpenExternalURLOptionsKey(UIApplication.OpenExternalURLOptionsKey.universalLinksOnly) : true]), completionHandler: { (success) in
                 if !success {
-                    UIApplication.shared.open(URL(string: "https://www.snapchat.com/add/uwindsormsa")!, options: [:], completionHandler: nil)
+                    UIApplication.shared.open(URL(string: "https://www.snapchat.com/add/uwindsormsa")!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
                 }
                 print("snapchat")
             })
@@ -59,7 +59,7 @@ class AboutViewController: UIViewController {
                 // mailing list
                 //                UIApplication.shared.openURL(NSURL(string: "google.com")! as URL)
                 
-                UIApplication.shared.open(URL(string: "http://uwindsormsa.com/mailing-list/")!, options: [:], completionHandler: {
+                UIApplication.shared.open(URL(string: "http://uwindsormsa.com/mailing-list/")!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: {
                     
                     (success) in
                     
@@ -71,7 +71,7 @@ class AboutViewController: UIViewController {
                 
             case "6":
                 // volunteer
-                UIApplication.shared.open(NSURL(string: "http://uwindsormsa.com/volunteer/")! as URL, options: [:], completionHandler: { (success) in
+                UIApplication.shared.open(NSURL(string: "http://uwindsormsa.com/volunteer/")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: { (success) in
                     print("volunteer")
                 })
                 
@@ -79,16 +79,16 @@ class AboutViewController: UIViewController {
                 // instagram
                 
                 let url = URL(string: "https://www.instagram.com/quickenloans/")!
-                UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : true], completionHandler: { (success) in
+                UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([convertFromUIApplicationOpenExternalURLOptionsKey(UIApplication.OpenExternalURLOptionsKey.universalLinksOnly) : true]), completionHandler: { (success) in
                     if !success {
-                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
                     }
                     print("youtube")
                 })
                 
             default:
                 
-                UIApplication.shared.open(NSURL(string: "mailto://Help@QuickenLoans.com")! as URL, options: [:], completionHandler: { (success) in
+                UIApplication.shared.open(NSURL(string: "mailto://Help@QuickenLoans.com")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: { (success) in
                     print("mailt")
                 })
                 
@@ -99,8 +99,18 @@ class AboutViewController: UIViewController {
     
     @IBAction func mailButtonForDesignPage(_ sender: UIButton) {
         
-        UIApplication.shared.open(NSURL(string: "mailto://snabieel@gmail.com")! as URL, options: [:], completionHandler: { (success) in
+        UIApplication.shared.open(NSURL(string: "mailto://snabieel@gmail.com")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: { (success) in
             print("mailt to suhaib")
         })
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIApplicationOpenExternalURLOptionsKey(_ input: UIApplication.OpenExternalURLOptionsKey) -> String {
+	return input.rawValue
 }

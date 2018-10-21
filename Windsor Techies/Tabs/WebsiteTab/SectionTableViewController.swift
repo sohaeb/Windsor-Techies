@@ -12,7 +12,7 @@ class SectionTableViewController: UITableViewController {
     var tableArrayCount : Int? = nil
     var arrayOfItems = [Items]()
     
-    let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    let myActivityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
     
      let label = UILabel()
     

@@ -614,13 +614,16 @@
 				TargetAttributes = {
 					6C4ACB5B216A4CFC0091B5A6 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 					};
 					6C4ACB6F216A4CFE0091B5A6 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 						TestTargetID = 6C4ACB5B216A4CFC0091B5A6;
 					};
 					6C4ACB7A216A4CFF0091B5A6 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 						TestTargetID = 6C4ACB5B216A4CFC0091B5A6;
 					};
 					6C4ACB8E216A4E380091B5A6 = {
@@ -628,6 +631,7 @@
 					};
 					6C4ACB9A216A4E3A0091B5A6 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -1046,7 +1050,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-Techies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1066,7 +1070,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-Techies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1086,7 +1090,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-TechiesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Windsor Techies.app/Windsor Techies";
 			};
@@ -1107,7 +1111,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-TechiesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Windsor Techies.app/Windsor Techies";
 			};
@@ -1127,7 +1131,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-TechiesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Windsor Techies";
 			};
@@ -1147,7 +1151,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suhaib.Windsor-TechiesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Windsor Techies";
 			};
@@ -1169,7 +1173,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
@@ -1191,7 +1195,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};

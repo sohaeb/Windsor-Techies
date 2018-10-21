@@ -30,11 +30,11 @@ class EventDetailsViewController_fb: UIViewController {
             let regionRadius: CLLocationDistance = 7000
             
             //MKCoordinateRegionM
-            let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
+            let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate, latitudinalMeters: regionRadius * 2.0, longitudinalMeters: regionRadius * 2.0)
             mapView.setRegion(coordinateRegion, animated: true)
         } else {
             let regionRadius: CLLocationDistance = 1500
-            let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
+            let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate, latitudinalMeters: regionRadius * 2.0, longitudinalMeters: regionRadius * 2.0)
             mapView.setRegion(coordinateRegion, animated: true)
         }
         //mapView.setRegion(coordinateRegion, animated: true)

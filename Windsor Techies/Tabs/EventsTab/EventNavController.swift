@@ -17,6 +17,6 @@ class EventNavController: UINavigationController {
         // We use this because Navigation Contoller is in another Storyboard.
         
         tabBar.title = ""
-        tabBar.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0)
+        tabBar.imageInsets = UIEdgeInsets.init(top: 6, left: 0, bottom: -6, right: 0)
     }
 }

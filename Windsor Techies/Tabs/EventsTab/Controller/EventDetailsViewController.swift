@@ -38,7 +38,7 @@ class EventDetailsViewController: UIViewController {
             //("here14")
             let regionRadius: CLLocationDistance = 1500
             //("here15")
-            let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
+            let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate, latitudinalMeters: regionRadius * 2.0, longitudinalMeters: regionRadius * 2.0)
             //("here16")
             mapView.setRegion(coordinateRegion, animated: true)
             //("here17")
@@ -50,7 +50,7 @@ class EventDetailsViewController: UIViewController {
             let regionRadius: CLLocationDistance = 7000
             //("here12")
             //MKCoordinateRegionM
-            let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
+            let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate, latitudinalMeters: regionRadius * 2.0, longitudinalMeters: regionRadius * 2.0)
             //("here13")
             mapView.setRegion(coordinateRegion, animated: true)
             
