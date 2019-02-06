@@ -28,17 +28,17 @@ class AnnouncementViewController: UIViewController {
             
             for i in json.array! {
                 
-                if let _ = i["retweeted_status"]["id_str"].string {
-                    continue
-                }
+//                if let _ = i["retweeted_status"]["id_str"].string {
+//                    continue
+//                }
                 
                 let value = i["in_reply_to_status_id"].string
                 print("value is \(String(describing: value))")
                 
-                if i["in_reply_to_status_id"].string == nil {
-                    print("reply")
-                    continue
-                }
+//                if i["in_reply_to_status_id"].string == nil {
+//                    print("reply")
+//                    continue
+//                }
                 
                 if let dateOfTweet = i["created_at"].string {
                     
